@@ -1,5 +1,35 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
 }
+header{
+  text-align: center;
+}
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+
+}
+figure > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure > figcaption {
+  font-size: small;
+  text-align: center;
+}
+#featured-property > p{
+  max-width:800px;
+  margin: auto;
+}
+#details > div {
+  background: red;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+
+
